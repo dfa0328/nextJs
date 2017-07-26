@@ -20,12 +20,6 @@ npm install next
 npm init nextJs
 ```
 
-#### 添加首页内容
-
-```
-mkdir pages
-touch pages/index.js
-```
 #### 修改package.json 文件
 
 ```
@@ -51,5 +45,24 @@ touch pages/index.js
   "license": "ISC"
 }
 
+```
+#### 添加首页内容
 
 ```
+mkdir pages
+touch pages/index.js
+```
+
+index.js 内容如下
+
+```
+import React from 'react';
+
+const Index = () =>  <div> welcome next.js </div> ;
+export default Index;
+
+```
+
+
+
+
