@@ -37,12 +37,12 @@ touch pages/index.js
   "scripts": {
     "dev": "next",
     "build": "next build",
-    "start": "next start",
+    "start": "next start"
   },
   "dependencies": {
-        "next": "^3.0.0-beta13",
-        "react": "^15.5.4",
-        "react-dom": "^15.5.4",
+    "next": "^3.0.0-beta13",
+    "react": "^15.5.4",
+    "react-dom": "^15.5.4"
   },
   "devDependencies": {
     "next-redux-wrapper": "^1.1.2"
@@ -50,5 +50,6 @@ touch pages/index.js
   "author": "",
   "license": "ISC"
 }
+
 
 ```
